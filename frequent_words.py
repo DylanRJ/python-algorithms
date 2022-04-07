@@ -1,13 +1,5 @@
 import timeit
 
-# def find_duplicates(arr):
-#   new_arr = []
-#   for word in arr:
-#     if word not in new_arr:
-#       new_arr.append(word)
-#     else:
-#       print(word)
-
 def frequent_words(arr):
   new_dic = {}
   for word in arr:
